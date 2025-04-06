@@ -1,0 +1,502 @@
+{
+  "name": "Radtel_RT900",
+  "type": "ARM",
+  "dependenceList": [],
+  "srcDirs": [],
+  "virtualFolder": {
+    "name": "<virtual_root>",
+    "files": [],
+    "folders": [
+      {
+        "name": "CMSIS",
+        "files": [
+          {
+            "path": "../source/Libraries/CMSIS/Device/startup_bt32f0x.s"
+          },
+          {
+            "path": "../source/Libraries/StdPeriph_Driver/src/system_bt32f0x.c"
+          },
+          {
+            "path": "../source/BSP/bt32f0x_it.c"
+          }
+        ],
+        "folders": []
+      },
+      {
+        "name": "StdPeriph_Driver",
+        "files": [
+          {
+            "path": "../source/Libraries/StdPeriph_Driver/src/bt32f0x_adc.c"
+          },
+          {
+            "path": "../source/Libraries/StdPeriph_Driver/src/bt32f0x_crc.c"
+          },
+          {
+            "path": "../source/Libraries/StdPeriph_Driver/src/bt32f0x_dma.c"
+          },
+          {
+            "path": "../source/Libraries/StdPeriph_Driver/src/bt32f0x_flash.c"
+          },
+          {
+            "path": "../source/Libraries/StdPeriph_Driver/src/bt32f0x_gpio.c"
+          },
+          {
+            "path": "../source/Libraries/StdPeriph_Driver/src/bt32f0x_iwdg.c"
+          },
+          {
+            "path": "../source/Libraries/StdPeriph_Driver/src/bt32f0x_misc.c"
+          },
+          {
+            "path": "../source/Libraries/StdPeriph_Driver/src/bt32f0x_pwr.c"
+          },
+          {
+            "path": "../source/Libraries/StdPeriph_Driver/src/bt32f0x_rcc.c"
+          },
+          {
+            "path": "../source/Libraries/StdPeriph_Driver/src/bt32f0x_spi.c"
+          },
+          {
+            "path": "../source/Libraries/StdPeriph_Driver/src/bt32f0x_tim.c"
+          },
+          {
+            "path": "../source/Libraries/StdPeriph_Driver/src/bt32f0x_usart.c"
+          },
+          {
+            "path": "../source/Libraries/StdPeriph_Driver/src/bt32f0x_wwdg.c"
+          },
+          {
+            "path": "../source/Libraries/StdPeriph_Driver/src/bt32f0x_syscfg.c"
+          }
+        ],
+        "folders": []
+      },
+      {
+        "name": "BSP",
+        "files": [
+          {
+            "path": "../source/BSP/Board.c"
+          },
+          {
+            "path": "../source/BSP/BoardFun.c"
+          }
+        ],
+        "folders": []
+      },
+      {
+        "name": "APP",
+        "files": [
+          {
+            "path": "../source/App/AppAlarm.c"
+          },
+          {
+            "path": "../source/App/AppFm.c"
+          },
+          {
+            "path": "../source/App/AppMain.c"
+          },
+          {
+            "path": "../source/App/AppMenu.c"
+          },
+          {
+            "path": "../source/App/AppMoni.c"
+          },
+          {
+            "path": "../source/App/AppScan.c"
+          },
+          {
+            "path": "../source/App/AppScanQT.c"
+          },
+          {
+            "path": "../source/App/AppSearch.c"
+          },
+          {
+            "path": "../source/App/AppTask.c"
+          },
+          {
+            "path": "../source/App/AppWeather.c"
+          },
+          {
+            "path": "../source/App/Battery.c"
+          },
+          {
+            "path": "../source/App/DualStandby.c"
+          },
+          {
+            "path": "../source/App/main.c"
+          },
+          {
+            "path": "../source/App/AppDtmf.c"
+          }
+        ],
+        "folders": []
+      },
+      {
+        "name": "CPS",
+        "files": [
+          {
+            "path": "../source/CPS/ProgromFlash.c"
+          }
+        ],
+        "folders": []
+      },
+      {
+        "name": "Core",
+        "files": [
+          {
+            "path": "../source/Core/Radio.c"
+          },
+          {
+            "path": "../source/Core/RadioTask.c"
+          }
+        ],
+        "folders": []
+      },
+      {
+        "name": "Driver",
+        "files": [
+          {
+            "path": "../source/Driver/crc.c"
+          },
+          {
+            "path": "../source/Driver/DevBK4819.c"
+          },
+          {
+            "path": "../source/Driver/DevBK4819Data.c"
+          },
+          {
+            "path": "../source/Driver/FlashFont.c"
+          },
+          {
+            "path": "../source/Driver/key_ptt.c"
+          },
+          {
+            "path": "../source/Driver/keyboard.c"
+          },
+          {
+            "path": "../source/Driver/NorFlash.c"
+          },
+          {
+            "path": "../source/Driver/RadioDataReset.c"
+          },
+          {
+            "path": "../source/Driver/RadioDataStorage.c"
+          },
+          {
+            "path": "../source/Driver/Rda5807.c"
+          },
+          {
+            "path": "../source/Driver/st7735s.c"
+          },
+          {
+            "path": "../source/Driver/Systick.c"
+          },
+          {
+            "path": "../source/Core/Functions.c"
+          }
+        ],
+        "folders": []
+      },
+      {
+        "name": "Interface",
+        "files": [
+          {
+            "path": "../source/Interface/i2c.c"
+          }
+        ],
+        "folders": []
+      },
+      {
+        "name": "GUI",
+        "files": [
+          {
+            "path": "../source/Gui/DisplayBattery.c"
+          },
+          {
+            "path": "../source/Gui/DisplayDtmf.c"
+          },
+          {
+            "path": "../source/Gui/DisplayFm.c"
+          },
+          {
+            "path": "../source/Gui/DisplayInputbox.c"
+          },
+          {
+            "path": "../source/Gui/DisplayMain.c"
+          },
+          {
+            "path": "../source/Gui/DisplayMenu.c"
+          },
+          {
+            "path": "../source/Gui/DisplayPowerOn.c"
+          },
+          {
+            "path": "../source/Gui/DisplayScanQT.c"
+          },
+          {
+            "path": "../source/Gui/DisplaySearch.c"
+          },
+          {
+            "path": "../source/Gui/DisplayWeather.c"
+          },
+          {
+            "path": "../source/Gui/LcdFillDot.c"
+          }
+        ],
+        "folders": []
+      },
+      {
+        "name": "Voice",
+        "files": [
+          {
+            "path": "../source/Voice/Beep.c"
+          },
+          {
+            "path": "../source/Voice/VoiceBroadcast.c"
+          }
+        ],
+        "folders": []
+      },
+      {
+        "name": "Common",
+        "files": [
+          {
+            "path": "../source/Common/BitMap.c"
+          },
+          {
+            "path": "../source/Common/Delay.c"
+          },
+          {
+            "path": "../source/Common/Globe.c"
+          }
+        ],
+        "folders": []
+      }
+    ]
+  },
+  "outDir": "build",
+  "deviceName": null,
+  "packDir": null,
+  "miscInfo": {
+    "uid": "e79843580f853739351b28ef2c17778e"
+  },
+  "targets": {
+    "Target 1": {
+      "excludeList": [],
+      "toolchain": "AC5",
+      "compileConfig": {
+        "cpuType": "Cortex-M0",
+        "floatingPointHardware": "none",
+        "scatterFilePath": "",
+        "useCustomScatterFile": false,
+        "storageLayout": {
+          "RAM": [
+            {
+              "tag": "RAM",
+              "id": 1,
+              "mem": {
+                "startAddr": "0x0",
+                "size": "0x0"
+              },
+              "isChecked": false,
+              "noInit": false
+            },
+            {
+              "tag": "RAM",
+              "id": 2,
+              "mem": {
+                "startAddr": "0x0",
+                "size": "0x0"
+              },
+              "isChecked": false,
+              "noInit": false
+            },
+            {
+              "tag": "RAM",
+              "id": 3,
+              "mem": {
+                "startAddr": "0x0",
+                "size": "0x0"
+              },
+              "isChecked": false,
+              "noInit": false
+            },
+            {
+              "tag": "IRAM",
+              "id": 1,
+              "mem": {
+                "startAddr": "0x200000C0",
+                "size": "0x6000"
+              },
+              "isChecked": true,
+              "noInit": false
+            },
+            {
+              "tag": "IRAM",
+              "id": 2,
+              "mem": {
+                "startAddr": "0x0",
+                "size": "0x0"
+              },
+              "isChecked": false,
+              "noInit": false
+            }
+          ],
+          "ROM": [
+            {
+              "tag": "ROM",
+              "id": 1,
+              "mem": {
+                "startAddr": "0x0",
+                "size": "0x0"
+              },
+              "isChecked": false,
+              "isStartup": false
+            },
+            {
+              "tag": "ROM",
+              "id": 2,
+              "mem": {
+                "startAddr": "0x0",
+                "size": "0x0"
+              },
+              "isChecked": false,
+              "isStartup": false
+            },
+            {
+              "tag": "ROM",
+              "id": 3,
+              "mem": {
+                "startAddr": "0x0",
+                "size": "0x0"
+              },
+              "isChecked": false,
+              "isStartup": false
+            },
+            {
+              "tag": "IROM",
+              "id": 1,
+              "mem": {
+                "startAddr": "0x8003000",
+                "size": "0x1e000"
+              },
+              "isChecked": true,
+              "isStartup": true
+            },
+            {
+              "tag": "IROM",
+              "id": 2,
+              "mem": {
+                "startAddr": "0x0",
+                "size": "0x0"
+              },
+              "isChecked": false,
+              "isStartup": false
+            }
+          ]
+        },
+        "options": "null"
+      },
+      "uploader": "OpenOCD",
+      "uploadConfig": {
+        "bin": "",
+        "target": "stm32f0x",
+        "interface": "stlink",
+        "baseAddr": "0x08000000"
+      },
+      "uploadConfigMap": {
+        "JLink": {
+          "bin": "",
+          "baseAddr": "",
+          "cpuInfo": {
+            "vendor": "null",
+            "cpuName": "null"
+          },
+          "proType": 1,
+          "speed": 8000,
+          "otherCmds": ""
+        },
+        "STLink": {
+          "bin": "",
+          "proType": "SWD",
+          "resetMode": "default",
+          "runAfterProgram": true,
+          "speed": 4000,
+          "address": "0x8003000",
+          "elFile": "None",
+          "optionBytes": ".eide/target 1.st.option.bytes.ini",
+          "otherCmds": ""
+        }
+      },
+      "custom_dep": {
+        "name": "default",
+        "incList": [
+          "../source/App",
+          "../source/BSP",
+          "../source/Common",
+          "../source/Core",
+          "../source/CPS",
+          "../source/Driver",
+          "../source/Gui",
+          "../source/Interface",
+          "../source/Libraries",
+          "../source/Libraries/CMSIS",
+          "../source/Libraries/CMSIS/Device",
+          "../source/Libraries/CMSIS/Include",
+          "../source/Libraries/StdPeriph_Driver",
+          "../source/Libraries/StdPeriph_Driver/inc",
+          "../source/Libraries/StdPeriph_Driver/src",
+          "../source/Voice"
+        ],
+        "libList": [],
+        "defineList": [
+          "USE_STDPERIPH_DRIVER"
+        ]
+      },
+      "builderOptions": {
+        "AC5": {
+          "version": 4,
+          "beforeBuildTasks": [],
+          "afterBuildTasks": [
+            {
+              "name": "[Copy linker output for Keil User Commands]",
+              "command": "cd .\\..\\Proj && mkdir ${KEIL_OUTPUT_DIR} & copy \"${OutDir}\\${ProjectName}.axf\" \"${KEIL_OUTPUT_DIR}\\${ProjectName}.axf\"",
+              "disable": false,
+              "abortAfterFailed": true
+            },
+            {
+              "name": "C:\\Keil_v5\\C51\\BIN\\hex2BF ./Output/BT8000.hex",
+              "command": "cd .\\..\\Proj && C:\\Keil_v5\\C51\\BIN\\hex2BF ./Output/BT8000.hex",
+              "disable": true,
+              "abortAfterFailed": true
+            },
+            {
+              "name": "生成加密文件",
+              "command": "C:\\Keil_v5\\C51\\BIN\\ARCEncryptTools.exe ./build/\"Target 1\"/WT_BT_8000.hex QzBtDzKjYxGsWalkieTalkieBt8000OpenDate20241202",
+              "disable": false,
+              "abortAfterFailed": true
+            }
+          ],
+          "global": {
+            "use-microLIB": true,
+            "output-debug-info": "enable"
+          },
+          "c/cpp-compiler": {
+            "optimization": "level-1",
+            "one-elf-section-per-function": true,
+            "c99-mode": true,
+            "C_FLAGS": "--diag_suppress=1 --diag_suppress=1295",
+            "CXX_FLAGS": "--diag_suppress=1 --diag_suppress=1295",
+            "warnings": "all-warnings"
+          },
+          "asm-compiler": {},
+          "linker": {
+            "output-format": "elf",
+            "ro-base": "0x08000000",
+            "rw-base": "0x20000000"
+          }
+        }
+      }
+    }
+  },
+  "version": "3.5"
+}
